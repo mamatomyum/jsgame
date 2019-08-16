@@ -1,1 +1,2 @@
-# jsgame
+# jsg
+Watcharaphon Sae-yong
