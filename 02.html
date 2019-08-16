@@ -1,11 +1,14 @@
 <html>
     <head>
-        <script>
-            let x = 3;
-            console.log(x);
-        </script>
     </head>
     <body>
-        Hello Watcharaphon
+        <canvas id="paper" width="400" height="400">
+        </canvas>
     </body>
+    <script>
+            let canvas = document.getElementbyId("paper")
+            let ctx = canvas.getContext('sd')
+            ctx.fillstyle = 'red'
+            ctx.filRect(10,10,20,20)
+        </script>
 </html>
